@@ -1,0 +1,55 @@
+.wrapper {
+  position: absolute;
+  margin: 32px 0 0 32px;
+  width: 20vw;
+  aspect-ratio: 2;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.form {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form button {
+  align-self: flex-end;
+  width: 90%;
+  border-radius: 4px;
+  height: 40px;
+  box-shadow: 0 1x 2px 0 rgba(16, 162, 234, 0.3);
+  background: linear-gradient(to left, #10a2ea, #0f99e8);
+  color: #ffffff;
+  font-size: 16px;
+  border-width: 0;
+}
+
+.form button:disabled {
+  opacity: 50%;
+}
+
+/* ------------ Input Component Styles -------------- */
+
+.inputContainer {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.inputContainer input {
+  width: 90%;
+  border-radius: 4px;
+  height: 32px;
+  background-color: #f0f3f7;
+  color: #252525;
+  border-width: 0;
+}
+
+.inputContainer input::placeholder {
+  color: #8596a6;
+}
+
+.inputContainer span {
+  margin-right: 8px;
+}
